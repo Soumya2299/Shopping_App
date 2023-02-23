@@ -1,6 +1,68 @@
 body {
 	background-color: hsla(225, 100%, 94%, 0.801);
 }
+.cartimg{
+
+    height: 10vh;
+	align-content: center;
+    
+}
+.card{
+    height: 70vh;
+    margin: 25px;
+    padding: 25px;
+}
+.container.title{
+	color: #203150;
+	font-weight: 600;
+	font-size: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.center{
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+}
+.h4{
+    font-weight: 400;
+}
+
+.card-table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .25rem;
+
+}
+
+.center .btn{
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    font-weight: 400;
+    padding: 12px 72px;
+    border-radius: 3px !important;
+}
+
+.cartimg{
+
+    height: 10vh;
+    
+}
+.btn:hover{
+
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
 
 .welcome{
 	color: rgb(107, 107, 140);
